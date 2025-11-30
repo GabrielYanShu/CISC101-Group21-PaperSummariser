@@ -1,0 +1,4 @@
+- Flag missing/empty sections.
+- Flag sections under 50 words.
+- Apply hallucination mitigation: only summarize existing text.
+- Long-paper chunking: break into smaller units (PS2 context-window strategy).
