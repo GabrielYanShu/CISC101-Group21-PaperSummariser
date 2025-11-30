@@ -1,0 +1,3 @@
+- Normalize section names (e.g., “Intro” → “Introduction”).
+- Detect missing sections (e.g., no “Methods”).
+- Flag short sections (<50 words).
