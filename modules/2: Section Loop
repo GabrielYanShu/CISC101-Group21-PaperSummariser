@@ -1,3 +1,7 @@
+Changelog
+  Added check for variable 'summary_level'
+  Added if, then loops to change summary parameters based on the 'summary_level' variable
+
 - Check variable 'summary_level'
 - Summarize in expert terms (precision, terminology).
 - Re-express in lay terms (plain language, analogies).
