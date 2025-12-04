@@ -1,3 +1,10 @@
+Changelog
+  Added check for variable 'summary_level'
+  Added if, then loops to change summary parameters based on the 'summary_level' variable
+
+- Check variable 'summary_level'
 - Summarize in expert terms (precision, terminology).
 - Re-express in lay terms (plain language, analogies).
 - Check constraints: length, terminology, factual accuracy.
+- If 'summary_level' = "short", generate a compact summary (1-2 sentences per section).
+- If 'summary_level' = "detailed", generate a short paragraph + a bullet list of key points (3-5 per section)

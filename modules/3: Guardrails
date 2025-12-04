@@ -1,4 +1,12 @@
+Changelog:
+  Added a flag for 'Evidence_mode'
+  Added if, then loops for edge cases. 
+
 - Flag missing/empty sections.
 - Flag sections under 50 words.
+- Flag variable 'Evidence_mode'
 - Apply hallucination mitigation: only summarize existing text.
 - Long-paper chunking: break into smaller units (PS2 context-window strategy).
+- If 'Evidence_mode' = "strict", only include claims, equations, and results explicitly provided in the text
+- If 'Evidence_mode' = "strict" and text contains insufficient information, respond "The source text provides insufficient detail to summarise this section in strict evidence mode."
+- If length of section < 50 words, respond "Section too short: summary may be incomplete."
